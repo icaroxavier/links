@@ -7,8 +7,13 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         gap: 5
     },
-    name: {
+    primaryTitle: {
+        color: colors.green[300],
         fontSize: 16,
-        fontWeight: 600,
+        fontWeight: '600'
+    },
+    secondaryTitle: {
+        color: colors.gray[400],
+        fontSize: 16,
     }
 })
